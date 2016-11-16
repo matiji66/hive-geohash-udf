@@ -18,8 +18,11 @@ import com.pateo.udf.GeoHash;
  * #这个通用性比较强 ，能够处理多个经纬度对 ，返回的结果以'|'分隔
  * add jar /var/lib/hadoop-hdfs/GetGeohash.jar;
  * create temporary function getgeohashs as 'com.pateo.udf.GetMultiGeohash';
- * create function  get_geo as 'com.pateo.udf.GetGeohash' USING JAR 'hdfs:///script/java/udf/GetGeohash.jar'
  * 
+ * #该方法创建永久的udf函数
+ * create function  get_geo as 'com.pateo.udf.GetGeohash' USING JAR 'hdfs:///script/java/udf/GetGeohash.jar'
+ * # 删除永久的函数
+ * DROP FUNCTION [IF EXISTS] function_name;
  * @author sh04595
  */
 public class GetMultiGeohash extends UDF {
@@ -47,10 +50,5 @@ public class GetMultiGeohash extends UDF {
 
 		return  sb.substring(0, sb.length() - 1);
 	}
-
-	// public static void main(String[] args) {
-	// String s1 = "||";
-	// System.out.println("-------" + s1.substring(0, s1.length() - 1));
-	// System.out.println("-------" + s1.split("\\|").length);
-	// }
+ 
 }
