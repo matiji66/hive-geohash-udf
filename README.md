@@ -1,16 +1,13 @@
-* hive UDF 使用说明传递经纬度,经纬度成对出现，返回的GeoHash值以'|'分隔
- * 
- * latitude1 longitude1 latitude2 longitude2 
- * 
- * hive 中使用
- * # 这个是专门为某个接口用的
- * add jar /var/lib/hadoop-hdfs/GetGeohash.jar;
- * create temporary function getgeohash as 'com.pateo.udf.GetGeohash';
- * #这个通用性比较强 ，能够处理多个经纬度对 ，返回的结果以'|'分隔
- * add jar /var/lib/hadoop-hdfs/GetGeohash.jar;
- * create temporary function getgeohashs as 'com.pateo.udf.GetMultiGeohash';
- * 
- * #该方法创建永久的udf函数
- * create function  get_geo as 'com.pateo.udf.GetGeohash' USING JAR 'hdfs:///script/java/udf/GetGeohash.jar'
- * # 删除永久的函数
- * DROP FUNCTION [IF EXISTS] function_name;
+# The geohash udf for hive
+
+## How to compile
+
+1. get the Hive from apache
+2. clone the repo to the same machine
+3. get the spark library from dependencies in the ```.classpath``` dotfile
+```
+cd $HIVE_HOME/lib directory && wget https://repo.typesafe.com/typesafe/maven-releases/org/apache/spark/spark-assembly_2.11/1.4.1-hadoop2.6-typesafe-001/spark-assembly_2.11-1.4.1-hadoop2.6-typesafe-001.jar
+```
+4. fix the links in the ```.classpath``` dotfile with the actual path to the hive
+5. run ```mvn package``` (assuming you have installed maven)
+6. see the jar files in the target directory

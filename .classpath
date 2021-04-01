@@ -22,27 +22,27 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="E:/apache-hive-1.1.1-bin/lib/hive-accumulo-handler-1.1.1.jar"/>
-	<classpathentry kind="lib" path="E:/apache-hive-1.1.1-bin/lib/hive-ant-1.1.1.jar"/>
-	<classpathentry kind="lib" path="E:/apache-hive-1.1.1-bin/lib/hive-beeline-1.1.1.jar"/>
-	<classpathentry kind="lib" path="E:/apache-hive-1.1.1-bin/lib/hive-cli-1.1.1.jar"/>
-	<classpathentry kind="lib" path="E:/apache-hive-1.1.1-bin/lib/hive-common-1.1.1.jar"/>
-	<classpathentry kind="lib" path="E:/apache-hive-1.1.1-bin/lib/hive-contrib-1.1.1.jar"/>
-	<classpathentry kind="lib" path="E:/apache-hive-1.1.1-bin/lib/hive-exec-1.1.1.jar"/>
-	<classpathentry kind="lib" path="E:/apache-hive-1.1.1-bin/lib/hive-hbase-handler-1.1.1.jar"/>
-	<classpathentry kind="lib" path="E:/apache-hive-1.1.1-bin/lib/hive-hwi-1.1.1.jar"/>
-	<classpathentry kind="lib" path="E:/apache-hive-1.1.1-bin/lib/hive-jdbc-1.1.1.jar"/>
-	<classpathentry kind="lib" path="E:/apache-hive-1.1.1-bin/lib/hive-jdbc-1.1.1-standalone.jar"/>
-	<classpathentry kind="lib" path="E:/apache-hive-1.1.1-bin/lib/hive-metastore-1.1.1.jar"/>
-	<classpathentry kind="lib" path="E:/apache-hive-1.1.1-bin/lib/hive-serde-1.1.1.jar"/>
-	<classpathentry kind="lib" path="E:/apache-hive-1.1.1-bin/lib/hive-service-1.1.1.jar"/>
-	<classpathentry kind="lib" path="E:/apache-hive-1.1.1-bin/lib/hive-shims-0.20S-1.1.1.jar"/>
-	<classpathentry kind="lib" path="E:/apache-hive-1.1.1-bin/lib/hive-shims-0.23-1.1.1.jar"/>
-	<classpathentry kind="lib" path="E:/apache-hive-1.1.1-bin/lib/hive-shims-1.1.1.jar"/>
-	<classpathentry kind="lib" path="E:/apache-hive-1.1.1-bin/lib/hive-shims-common-1.1.1.jar"/>
-	<classpathentry kind="lib" path="E:/apache-hive-1.1.1-bin/lib/hive-shims-scheduler-1.1.1.jar"/>
-	<classpathentry kind="lib" path="E:/apache-hive-1.1.1-bin/lib/hive-testutils-1.1.1.jar"/>
-	<classpathentry kind="lib" path="E:/apache-hive-1.1.1-bin/lib/httpclient-4.2.5.jar"/>
-	<classpathentry kind="lib" path="E:/tools/spark-1.6.1-bin-hadoop2.6/spark-1.6.1-bin-hadoop2.6/lib/spark-assembly-1.6.1-hadoop2.6.0.jar"/>
+	<classpathentry kind="lib" path="/home/user/hadoop/apache-hive-3.1.2-bin/lib/hive-accumulo-handler-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/user/hadoop/apache-hive-3.1.2-bin/lib/hive-ant-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/user/hadoop/apache-hive-3.1.2-bin/lib/hive-beeline-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/user/hadoop/apache-hive-3.1.2-bin/lib/hive-cli-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/user/hadoop/apache-hive-3.1.2-bin/lib/hive-common-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/user/hadoop/apache-hive-3.1.2-bin/lib/hive-contrib-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/user/hadoop/apache-hive-3.1.2-bin/lib/hive-exec-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/user/hadoop/apache-hive-3.1.2-bin/lib/hive-hbase-handler-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/user/hadoop/apache-hive-3.1.2-bin/lib/hive-hwi-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/user/hadoop/apache-hive-3.1.2-bin/lib/hive-jdbc-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/user/hadoop/apache-hive-3.1.2-bin/lib/hive-jdbc-1.1.1-standalone.jar"/>
+	<classpathentry kind="lib" path="/home/user/hadoop/apache-hive-3.1.2-bin/lib/hive-metastore-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/user/hadoop/apache-hive-3.1.2-bin/lib/hive-serde-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/user/hadoop/apache-hive-3.1.2-bin/lib/hive-service-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/user/hadoop/apache-hive-3.1.2-bin/lib/hive-shims-0.20S-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/user/hadoop/apache-hive-3.1.2-bin/lib/hive-shims-0.23-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/user/hadoop/apache-hive-3.1.2-bin/lib/hive-shims-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/user/hadoop/apache-hive-3.1.2-bin/lib/hive-shims-common-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/user/hadoop/apache-hive-3.1.2-bin/lib/hive-shims-scheduler-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/user/hadoop/apache-hive-3.1.2-bin/lib/hive-testutils-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/user/hadoop/apache-hive-3.1.2-bin/lib/httpclient-4.2.5.jar"/>
+	<classpathentry kind="lib" path="/home/user/hadoop/apache-hive-3.1.2-bin/lib/spark-assembly_2.11-1.4.1-hadoop2.6-typesafe-001.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
